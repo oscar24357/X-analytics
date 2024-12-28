@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fixed typo: "viewpoint" to "viewport" -->
+    <title>X Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+ </head>   
+ <body>!
+    <header>
+        <h1>X Analytics Dashboard</h1>
+    </header>
+t    <main>
+        <section id="overview">
+            <div class="metric">
+                <h2>Posts</h2>
+                <div class="bar-graph"><div id="postsBar"></div></div>
+                <span id="posts">0</span> <!-- Fixed to lowercase "posts" -->
+            </div>
+            <div class="metric">
+                <h2>Followers</h2>
+                <div class="bar-graph"><div id="followersBar"></div></div>
+                <span id="followers">0</span> <!-- Fixed to lowercase "followers" -->
+            </div>
+            <div class="metric">
+                <h2>Impressions</h2>
+                <div class="bar-graph"><div id="impressionsBar"></div></div>
+                <span id="impressions">0</span> <!-- Fixed to lowercase "impressions" -->
+            </div>
+            <div class="metric">
+                <h2>Verified Followers</h2>
+                <div class="bar-graph"><div id="verifiedFollowersBar"></div></div>
+                <span id="verifiedFollowers">0</span> <!-- Fixed to lowercase "verifiedFollowers" -->
+            </div>
+        </section>
+
+        <section id="engagement">
+            <div class="metric">
+                <h2>Bookmarks</h2>
+                <div class="bar-graph"><div id="bookmarksBar"></div></div>
+                <span id="bookmarks">0</span> <!-- Fixed to lowercase "bookmarks" -->
+            </div>
+            <div class="metric">
+                <h2>Likes</h2>
+                <div class="bar-graph"><div id="likesBar"></div></div>
+                <span id="likes">0</span> <!-- Fixed to lowercase "likes" -->
+            </div>
+            <div class="metric">
+                <h2>Reposts</h2>
+                <div class="bar-graph"><div id="repostsBar"></div></div>
+                <span id="reposts">0</span> <!-- Fixed to lowercase "reposts" -->
+            </div>t
+            <div class="metric">
+                <h2>Shares</h2>
+                <div class="bar-graph"><div id="sharesBar"></div></div>
+                <span id="shares">0</span> <!-- Fixed to lowercase "shares" -->
+            </div>
+            <div class="metric">
+                <h2>Engagement Rate</h2>
+                <div class="bar-graph"><div id="engagementRateBar"></div></div>
+                <span id="engagementRate">0%</span> <!-- Fixed typo in "engagementRatee" to "engagementRate" -->
+            </div>
+        </section>
+
+        <section id="audience">
+            <h2>Audience Demographics</h2>
+            <div class="demographic" id="gender"></div>
+            <div class="demographic" id="age"></div> <!-- Changed class name to "demographic" -->
+            <div class="demographic" id="location"></div> <!-- Changed class name to "demographic" -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+ </body>
+</html>
